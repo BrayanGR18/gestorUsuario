@@ -1,1 +1,14 @@
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\config\JwtRequestFilter.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\config\OpenApiConfig.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\config\SecurityConfig.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\controller\AuthController.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\controller\UserController.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\dto\LoginRequest.java
 E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\GestorUsuarioApplication.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\model\Address.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\model\User.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\service\UserService.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\util\AESUtil.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\util\DateUtil.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\util\JwtUtil.java
+E:\gestorUsuario\src\main\java\com\pruebaTecnica\gestorUsuario\util\ValidationUtil.java

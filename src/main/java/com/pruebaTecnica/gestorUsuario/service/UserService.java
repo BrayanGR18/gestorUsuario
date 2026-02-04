@@ -34,8 +34,8 @@ private User createSample(String email, String name, String phone, String taxId)
             .taxId(taxId)
             .createdAt(DateUtil.getMadagascarTime())
             .addresses(List.of(
-                    new Address(1, "workaddress", "street No.1", "UK"),
-                    new Address(2, "homeaddress", "street No.2", "AU")
+                    new Address(1, "DirecccionTrabajo", "street No.1", "UK"),
+                    new Address(2, "DireccionCasa", "street No.2", "AU")
             ))
             .build();
 }
@@ -92,8 +92,8 @@ private User createSample(String email, String name, String phone, String taxId)
     }
 
     public User createUser(User user) throws Exception {
-        if (!ValidationUtil.isValidRFC(user.getTaxId())) throw new RuntimeException("Invalid RFC");
-        if (!ValidationUtil.isValidPhone(user.getPhone())) throw new RuntimeException("Invalid phone");
+        if (!ValidationUtil.isValidRFC(user.getTaxId())) throw new RuntimeException("RFC invalido");
+        if (!ValidationUtil.isValidPhone(user.getPhone())) throw new RuntimeException("Phone invalido");
         if (users.stream().anyMatch(u -> u.getTaxId().equals(user.getTaxId())))
             throw new RuntimeException("El RFC es unico");
 
